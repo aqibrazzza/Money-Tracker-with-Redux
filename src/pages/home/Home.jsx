@@ -40,20 +40,6 @@ export default function Home() {
 						<h1 className="w-full h-full flex justify-center items-center marker:tracking-tight text-gray-100 text-xl xl:text-left">
 							<Loader />
 						</h1>
-						// <>
-						// 	<div className="flex justify-between bg-gray-800 rounded p-4 border-l-[6px] border-l-blue-600">
-						// 		<p className="bg-gray-700 font-medium w-1/12 h-6 rounded-xl mr-4"></p>
-						// 		<div className="bg-gray-700 font-medium text-xl tracking-wider uppercase rounded-xl  w-11/12 h-6"></div>
-						// 	</div>
-						// 	<div className="flex justify-between bg-gray-800 rounded p-4 border-l-[6px] border-l-blue-600">
-						// 		<p className="bg-gray-700 font-medium w-1/12 h-6 rounded-xl mr-4"></p>
-						// 		<div className="bg-gray-700 font-medium text-xl tracking-wider uppercase rounded-xl  w-11/12 h-6"></div>
-						// 	</div>
-						// 	<div className="flex justify-between bg-gray-800 rounded p-4 border-l-[6px] border-l-blue-600">
-						// 		<p className="bg-gray-700 font-medium w-1/12 h-6 rounded-xl mr-4"></p>
-						// 		<div className="bg-gray-700 font-medium text-xl tracking-wider uppercase rounded-xl  w-11/12 h-6"></div>
-						// 	</div>
-						// </>
 					)}
 					{error && <h3>{error}</h3>}
 					{showEmptyState()}
