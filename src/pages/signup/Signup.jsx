@@ -9,7 +9,6 @@ export default function Signup() {
 
 	const dispatch = useDispatch();
 	const userState = useSelector((state) => state.user);
-
 	const isPending = userState.isPending;
 	const error = userState.error;
 
